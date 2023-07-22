@@ -67,6 +67,22 @@ dotnet run
 
 - Training: The neural network is trained using the backpropagation algorithm for 10,000 iterations.
 
+### Structure
+
+```
+  +---------------------------------------------------------------------+
+  |     Program                                                         |
+  +---------------------------------------------------------------------+
+  | Sigmoid(x: double)                                                  | 
+  | SigmoidDerivative(x: double): double                                | 
+  | Main(): void                                                        |
+  | TransposeMatrix(matrix: double[,]): double[,]                       |
+  | MultiplyMatrices(matrix1: double[,], matrix2: double[,]): double[,] |
+  | AddMatrices(matrix1: double[,], matrix2: double[,]): double[,]      |
+  | PrintMatrix(matrix: double[,]): void                                |
+  +---------------------------------------------------------------------+
+
+```
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
