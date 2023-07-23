@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-public class Program
+public class NeuralNetwork
 {
     // Sigmoid function to normalize inputs
     public static double Sigmoid(double x)
